@@ -1,0 +1,131 @@
+{
+    "Title": "Heist for the Holy Grail",
+    "Credits": "Created by Emmett Jones (emdjones@ucsc.edu).",
+    "InitialLocation": "Outside the Museum",
+    "Locations": {
+        "Outside the Museum": {
+            "Body": "Before your eyes in a city of gunslinging wizards, bootlegging thaumaturges, and wandering street magicians, sits the dazzling Museum of Mayfaire's Occultic History. You, a down-on-your-luck worker, are there to steal the Holy Grail with the hopes of riches and happiness. However, you still haven't decided how you wish to enter the museum: ",
+            "Choices": [
+                {
+                    "Text": "Enter the polite way, through the front door.",
+                    "Target": "Front Door"
+                },
+                {
+                    "Text": "Enter the COOL way, through the roof!",
+                    "Target": "Roof"
+                }
+            ]
+        },
+        "Front Door": {
+            "Body": "Ah, an aspiring gentleman. Lucky for you, the door is unlocked at the business booming hour of 3AM. As you enter, you see ahead of you a large, open-air lobby through a small corrider: ",
+            "Choices": [
+                {
+                    "Text": "Go back outside.",
+                    "Target": "Outside the Museum"
+                },
+                {
+                    "Text": "Press on to the foyer!",
+                    "Target": "Foyer"
+                }
+            ]
+        },
+        "Foyer": {
+            "Body": "You decide to continue through the corrider and are now standing in the museum's massive foyer, with its beautiful stained glass windows and occultic gift shop. Before you now stands two separate hallways to two different parts of the museum: ",
+            "Choices": [
+                {
+                    "Text": "Transport yourself to the History of Transportation room.",
+                    "Target": "History of Transport Room"
+                },
+                {
+                    "Text": "Medieval Age yourself to the History of Medieval Ages room",
+                    "Target": "History of Medieval Ages Room"
+                },
+                {
+                    "Text": "Go back to the front door.",
+                    "Target": "Front Door"
+                }
+            ]
+        },
+        "History of Transport Room": {
+            "Body": "As you walk through the room, an overwhelming smell of petroleum and ancient metals forged into mechanical marvels. You also notice a peculiar shine emanating from one of the automobile exhibit: ",
+            "Choices": [
+                {
+                    "Text": "Inspect that suspicious and sparkly looking car.",
+                    "Target": "Automobile Exhibit"
+                },
+                {
+                    "Text": "Head back to the foyer.",
+                    "Target": "Foyer"
+                }
+            ]
+        },
+        "Automobile Exhibit": {
+            "Body": "Huh, that's strange. There appears to be something sitting atop the dashboard.",
+            "Choices": [
+                {
+                    "Text": "Cease your automobile inspection.",
+                    "Target": "History of Transport Room"
+                }
+            ]
+        },
+        "Roof": {
+            "Body": "Ah, an Arsene Lupin type. Still a gentleman, but a COOL one, who prefers sneaking his way past barriers of entry. Ahead of you in a large spherical dome of glass that looks to drop down into a section of the medieval exhibit. It looks like if you want to do this, you'll need to cut through the glass: ",
+            "Choices": [
+                {
+                    "Text": "Decide this is insane and head back down.",
+                    "Target": "Outside the Museum"
+                },
+                {
+                    "Text": "NAW! We doin' this!",
+                    "Target": "History of Medieval Ages Room"
+                }
+            ]
+        },
+        "History of Medieval Ages Room": {
+            "Body": "You nearly panic when you find yourself surrounded by armored figures equipped with swords, but realize quickly they are just exhibits (You prod one of them just in case). You know that the foyer is behind you and there still may be things to search, or you can continue ahead where the Holy Grail is presumed to rest: ",
+            "Choices": [
+                {
+                    "Text": "Head to the foyer.",
+                    "Target": "Foyer"
+                },
+                {
+                    "Text": "Approach the case of the Holy Grail.",
+                    "Target": "Holy Grail Case"
+                }
+            ]
+        },
+        "Holy Grail Case": {
+            "Body": "There it is, bedazzled in all it's jewel-having glory. Coated in a soft, radiant silver, the chalice the knights of old agonized over in their questing to find sits gleaming at you with a grin. No wait, that's just your reflection in the glass case. Which is locked. Drat. Looks like a key is required to open it: ",
+            "Choices": [
+                {
+                    "Text": "Double back and find the key.",
+                    "Target": "History of Medieval Ages Room"
+                },
+                {
+                    "Text": "Unlock the case!",
+                    "Target": "You Got It!"
+                }
+            ]
+        },
+        "You Got It!": {
+            "Body": "At last! The glass case opens and you grab hold of the grail! Now hurry! You must escape quickly if you want to make it out with your riches in one piece: ",
+            "Choices": [
+                {
+                    "Text": "Sneak away like a sly little guy.",
+                    "Target": "Sneak Away"
+                },
+                {
+                    "Text": "Drive away like a respectable rum runner.",
+                    "Target": "Drive Away"
+                }
+            ]
+        },
+        "Sneak Away": {
+            "Body": "You, a cunning criminal of cavort-callings capers, tip-toe your way whence you came and slip out undeterred and undetected. Congratulations, you're a very rich little goblin :)"
+        },
+        "Drive Away": {
+            "Body": "Oh YEAH! You consider just exiting the premises, but where's the style? The spunk? The SHOWMANSSHIP? You recall acquiring the key from the inside of a car exhibit, and wonder if the car still runs? Short answer: yes. You crash through the museum's walls somehow and ride off into the distance, outrunning and outgunning trails of do-gooders, do-badders, druids, dryads, and other various third parties. Congratulations, you're a COOL wanted goblin :)"
+        }
+        
+    }
+}
